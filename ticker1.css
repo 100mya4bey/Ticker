@@ -1,0 +1,645 @@
+
+@media screen and (max-width: 992px) {
+    .homenav {
+        padding: 1rem !important;
+    }
+
+    .masterbar {
+        padding: 0 1rem;
+    }
+
+    .bsnav {
+        z-index: 55 !important;
+    }
+
+        .bsnav.scrollspynav {
+            z-index: 50 !important;
+        }
+
+    .bsnav-mobile {
+        z-index: 52 !important;
+    }
+
+        .bsnav-mobile .navbar {
+            width: 100%;
+            background-color: #FFF !important;
+            transition: .2s ease-in-out;
+            transform: translate3d(100%,0,0);
+        }
+
+        .bsnav-mobile .navbar-nav {
+            margin-top: 30% !important;
+        }
+
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .bsnav-mobile .navbar-nav .nav-item .nav-link:not(.login) {
+        font-size: 1.25rem;
+        padding: 0.75rem 0 !important;
+    }
+
+    .bsnav-mobile .navbar-nav .nav-item .nav-link.login {
+        font-size: 1.25rem;
+        padding: 0.75rem 1.5rem !important;
+    }
+
+    #linavlogin {
+        margin-top: 0rem !important;
+    }
+
+    .explorelink {
+        display: none !important;
+    }
+
+    .header {
+        background-position: center 90%;
+        background-size: unset;
+        background-repeat: no-repeat;
+    }
+
+        .header .searchcomp {
+            margin-top: 30% !important;
+        }
+
+            .header .searchcomp h1 {
+                font-size: 2.25rem !important;
+            }
+
+            .header .searchcomp p {
+                font-size: 1.125rem !important;
+            }
+
+            .header .searchcomp .searchbox {
+                margin-top: 2rem !important;
+            }
+
+    .frequents span {
+        display: block !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .frequents a {
+        font-size: 1rem;
+        padding: 0.5rem 1.25rem;
+        margin-bottom: 1rem !important;
+    }
+
+    .innerpagecontent {
+        padding: 0.75rem !important;
+    }
+
+    .card {
+        padding: 1.5rem 1rem !important;
+    }
+
+    .filterbtn, .filterbtnVC {
+        float: left;
+        width: 14%;
+        font-size: 1rem;
+        padding: 6px;
+    }
+
+    .card-body {
+        padding: 2px;
+    }
+
+    .screenertable thead th {
+        white-space: nowrap;
+    }
+
+    .screenertable tbody tr th:first-child {
+        padding-left: 0.5rem !important;
+    }
+
+    .screenertable tbody th:first-child, .screenertable tbody td:first-child {
+        position: sticky;
+        left: 0px;
+        background-color: #f6faff;
+    }
+
+    .screenertable thead th:first-child, .screenertable thead td:first-child {
+        position: sticky;
+        left: 0px;
+        white-space: nowrap;
+        background-color: #E1EFFF;
+        min-width: 160px !important;
+    }
+
+    .comparetable thead th:first-child, .comparetable thead td:first-child {
+        min-width: 100px !important;
+        white-space: normal;
+    }
+
+
+    a.cardtoolbar {
+        font-size: 1.125rem !important;
+        min-height: 6.5rem !important;
+    }
+
+    .mobile-carousel {
+        width: auto;
+        position: relative;
+    }
+
+        .mobile-carousel .owl-stage .owl-item {
+            text-align: center;
+        }
+
+
+        .mobile-carousel .owl-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+            .mobile-carousel .owl-nav .owl-prev, .mobile-carousel .owl-nav .owl-next {
+                opacity: 1;
+                transition: opacity 0.5s ease-in-out;
+                font-size: 1.5rem;
+                background-color: white;
+            }
+
+                .mobile-carousel .owl-nav .owl-prev.disabled, .mobile-carousel .owl-nav .owl-next.disabled {
+                    opacity: 0;
+                }
+
+    .owl-next, .owl-prev {
+        color: #0078ff !important;
+        outline: none !important;
+    }
+
+    .content {
+        padding: 0.75rem 1rem 4rem !important;
+    }
+
+    .tickerfeatures {
+        padding: 1rem !important;
+    }
+
+        .tickerfeatures .h6 {
+            margin-bottom: 1rem !important;
+        }
+
+        .tickerfeatures .tickerfeaturestext {
+            min-height: unset !important;
+            margin: 1rem 0 4rem !important;
+        }
+
+
+    .bundlerow, .ratiorow {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 2rem;
+    }
+
+        .bundlerow .col-12, .ratiorow .col-12 {
+            flex-basis: 80% !important;
+        }
+
+        .ratiorow > [class*=col-] {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+        .bundlerow .card {
+            margin-top: 0;
+        }
+
+        .ratiorow .card {
+            margin: 0 1rem;
+            height: 18rem !important;
+        }
+
+            .ratiorow .card .h2 {
+                font-size: 3rem;
+            }
+
+    .sectionheading small.float-right {
+        float: left !important;
+        display: block;
+    }
+
+    /*inner pages*/
+
+    #mainNav, #mnav.navbar {
+        padding: 0.5rem 0.75rem !important;
+    }
+
+    .scrollspynav {
+        max-width: 100%;
+        overflow-x: scroll;
+        padding: 0 0.75rem !important;
+    }
+
+        .scrollspynav .nav-link {
+            padding: 0.75rem !important;
+        }
+
+        .scrollspynav .switch {
+            margin-top: 9px !important;
+        }
+
+    .cardblue {
+        min-height: 3.75rem !important;
+    }
+
+        .cardblue .card-header {
+            text-align: left !important;
+            border-bottom: 0 !important;
+            padding: 0.75rem;
+        }
+
+    .ratingcollapsebtn {
+        float: right;
+        display: block !important;
+        background-color: rgba(255,255,255,0.4);
+        color: #FFF !important;
+        text-decoration: none !important;
+        outline: none !important;
+        font-size: 1.5rem;
+        line-height: 1.75;
+        border-radius: 50%;
+        width: 2.25rem;
+        height: 2.25rem;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .ratingsingle .ratingstars {
+        display: block !important;
+    }
+
+    .ratingsingle h6 {
+        margin-top: 1rem !important;
+    }
+
+    .ratingsingle span {
+        width: 95% !important;
+        margin-bottom: 1rem !important;
+    }
+
+        .ratingsingle span.badge {
+            margin-right: 0.5rem !important;
+        }
+
+    .companyheader {
+        margin-top: 1rem !important;
+    }
+
+        .companyheader h1 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            color: #000;
+            margin-bottom: 0 !important;
+            padding-right: 0;
+        }
+
+    .btnaddtowatchlist {
+        float: right !important;
+        border-radius: 0.25rem !important;
+        width: 100% !important;
+        height: auto !important;
+        line-height: 1 !important;
+        padding: 0.5rem 0.75rem !important;
+        font-size: 1.125rem !important;
+        font-weight: 500 !important;
+    }
+
+        .btnaddtowatchlist span {
+            margin-left: 0.25rem !important;
+            font-size: 1rem;
+        }
+
+    .cardchart span.float-right {
+        float: none !important;
+        display: block;
+        margin-top: 1rem !important;
+        width: 100%;
+        margin-left: -1rem;
+    }
+
+    .cardchart span.float-right {
+    }
+
+    .screenertable.table-sm td {
+        white-space: nowrap;
+    }
+
+    .cardtab .nav-pills {
+        float: none;
+        margin-top: 1.5rem;
+    }
+
+        .cardtab .nav-pills .nav-link {
+            padding: 0.5rem !important;
+        }
+
+    .bluehero {
+        min-height: 27rem;
+    }
+
+        .bluehero h1 {
+            font-size: 2.75rem !important;
+            max-width: 90% !important;
+            position: relative;
+            z-index: 1;
+        }
+
+        .bluehero p {
+            font-size: 1.125rem !important;
+            max-width: 90% !important;
+        }
+
+        .bluehero img.imgeffectsmall {
+            width: 25% !important;
+            top: 11% !important;
+        }
+
+        .bluehero img.imgeffect {
+            width: 49% !important;
+            opacity: 0.2 !important;
+            top: 39% !important;
+        }
+
+    .howtoticker h2 {
+        font-size: 2rem !important;
+    }
+
+        .howtoticker h2:before {
+            bottom: -25% !important;
+            width: 40% !important;
+            top: auto;
+        }
+
+    .howtoticker .topsection {
+        margin-top: 5rem;
+    }
+
+        .howtoticker .topsection p {
+            width: 100% !important;
+        }
+
+    .howtoticker .sectionimagecut {
+        max-width: 200%;
+        position: relative !important;
+        margin-left: -20%;
+        margin-top: -10%;
+        right: 0 !important;
+    }
+
+    .purposes h3 {
+        text-align: center;
+        font-size: 1.25rem;
+    }
+
+    .tickerpluscta .cta {
+        width: 100% !important;
+        padding: 2rem !important;
+        border-radius: 1rem !important;
+        overflow: hidden;
+    }
+
+    .tickerplusctafull .cta {
+        min-height: 100vh;
+        border-radius: 0 !important;
+    }
+
+    .tickerpluscta img.imgctabg {
+        width: 300% !important;
+        left: -200% !important;
+        border-radius: 0 0 1rem 1rem !important;
+    }
+
+    .tickerplusctafull img.imgctabg {
+        border-radius: 0 !important;
+    }
+
+    .morehowto {
+        padding: 0;
+    }
+
+        .morehowto .card .card-header {
+            padding: 0.5rem 0 1rem;
+        }
+
+            .morehowto .card .card-header h2 {
+                font-size: 1.25rem !important;
+                padding-right: 2rem !important;
+            }
+
+    .tickerplusfeatures p:first-of-type {
+        margin-top: 2rem !important;
+    }
+
+    .tickerplusfeaturescontent .tickerfeaturestext, .tickerplusfeaturescontent .tickerfeaturestext.alt {
+        padding: 0 !important;
+    }
+
+    footer h6 {
+        width: 100% !important;
+        font-size: 1rem !important;
+    }
+
+    footer h4 {
+        margin-top: 1.5rem !important;
+    }
+
+    .card-input-element + .radiocontent {
+        width: 6rem !important;
+        height: 6rem !important;
+        margin: 8px !important;
+        padding: 0.25rem !important;
+    }
+
+    .card-input-element:checked + .radiocontent::after {
+        display: none !important;
+    }
+
+    .planchooser {
+        width: 100% !important;
+    }
+
+    .btnsubscribe {
+        padding: 0.75rem 1rem !important;
+    }
+
+    .sectionheading {
+        padding: 3rem 0 0 !important;
+    }
+
+    .sectiondesc {
+        margin: 0.5rem 0 0rem !important;
+    }
+
+    #mainNav, #mnav {
+        z-index: 1000 !important;
+    }
+
+        #mainNav.bg-white, #mnav.bg-white {
+            background-color: #fff !important;
+        }
+
+    .searchmob {
+        z-index: 1000 !important;
+        position: unset !important;
+        display: block !important;
+    }
+
+        .searchmob .navbar-nav {
+            display: none !important
+        }
+
+    .topsearchinner {
+        display: none;
+        z-index: 1000 !important;
+        left: 5% !important;
+        top: 7rem !important;
+        width: 90% !important;
+    }
+
+    .searchoverlay {
+        z-index: 999 !important;
+    }
+
+        .searchoverlay.active {
+            display: block;
+            background-color: rgba(0,0,0,0.85);
+        }
+
+    .searchbtnmob {
+        position: absolute;
+        right: 18%;
+        font-size: 1.25rem;
+        background: #E1EFFF;
+        color: #0078ff !important;
+        border-radius: 50%;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        padding-top: 0.75rem;
+        outline: none !important;
+        text-decoration: none !important;
+    }
+
+    .mobclose {
+        position: absolute;
+        bottom: 15%;
+        font-size: 2rem;
+        background: #FFF;
+        color: #000 !important;
+        border-radius: 50%;
+        width: 4rem;
+        height: 4rem;
+        text-align: center;
+        padding-top: 0.625rem;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: 600;
+        outline: none !important;
+        text-decoration: none !important;
+    }
+
+    .profiledd {
+        z-index: 1000 !important;
+    }
+
+    .AddOwnRatio .dropdown {
+        width: 75% !important;
+    }
+
+    .companyheader .currprice {
+        font-size: 1.6375rem;
+    }
+
+    .companyheader .increment, .companyheader .decrement {
+        font-size: 0.875rem;
+    }
+
+    .overallstars {
+        font-size: 25px;
+        line-height: 1.5;
+    }
+
+    .manageratio, .closemanageratio {
+        display: block !important;
+        float: left;
+        margin-top: 1rem;
+    }
+
+        .manageratio.d-none, .closemanageratio.d-none {
+            display: none !important;
+        }
+
+    .output .badge {
+        float: none !important;
+        display: inline-block !important;
+        margin-left: .25rem !important;
+        background-color: #E1EFFF !important;
+        color: #0078ff !important;
+        font-weight: 600 !important;
+    }
+
+    .stylebox {
+        width: 65px !important;
+        height: 65px !important;
+    }
+
+    .styleboxheadervertical {
+        height: 75px !important;
+        line-height: 75px !important;
+    }
+
+
+    .portfoliosummaryrow {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 2rem;
+    }
+
+        .portfoliosummaryrow .col-12, .portfoliosummaryrow .col-6 {
+            flex-basis: 80% !important;
+        }
+
+        .portfoliosummaryrow > [class*=col-] {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+        .portfoliosummaryrow .card {
+            margin: 0 1rem;
+            height: 9rem !important;
+        }
+
+    .watchlistnav {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 2rem;
+    }
+
+        .watchlistnav li {
+            white-space: nowrap;
+        }
+
+    .premiumdesc {
+        max-width: 90% !important;
+    }
+
+    .formbtn {
+        width: 100% !important;
+
+    }
+
+   .btn-primary.btn-sm{
+        font-size:0.7rem;
+        
+
+    }
+}
