@@ -60,7 +60,7 @@
     }
 
         .header .searchcomp {
-            margin-top: 30% !important;
+            margin-top: 50% !important;
         }
 
             .header .searchcomp h1 {
@@ -408,7 +408,7 @@
     }
 
     .tickerplusctafull .cta {
-        min-height: 100vh;
+        min-height: 1vh; /* changed the height of the background */
         border-radius: 0 !important;
     }
 
@@ -494,7 +494,7 @@
     }
 
         .searchmob .navbar-nav {
-            display: none !important
+             display:none !important
         }
 
     .topsearchinner {
